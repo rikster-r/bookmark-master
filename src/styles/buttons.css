@@ -8,12 +8,12 @@
   text-decoration: none;
   text-transform: capitalize;
   text-align: center;
-  transition: all 0.5s ease 0s;
-  border: none;
+  transition: all 200ms ease;
   color: #fff;
   font-weight: 500;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   font-size: 0.8rem;
+  outline: none;
 }
 
 .btn-uppercase {
@@ -23,15 +23,36 @@
 
 .btn-red {
   background-color: var(--primary-red);
+  border: 3px solid var(--primary-red);
+}
+
+.btn-red:hover,
+.btn-red:focus-visible {
+  background-color: inherit;
+  color: var(--primary-red);
 }
 
 .btn-blue {
   background-color: var(--primary-blue);
+  border: 3px solid var(--primary-blue);
+}
+
+.btn-blue:hover,
+.btn-blue:focus-visible {
+  background-color: inherit;
+  color: var(--primary-blue);
 }
 
 .btn-gray {
   background-color: var(--gray-100);
   color: var(--gray-400);
+  border: 3px solid var(--gray-100);
+}
+
+.btn-gray:hover,
+.btn-gray:focus-visible {
+  background-color: inherit;
+  border: 3px solid var(--gray-400);
 }
 
 .btn-dropdown {
@@ -59,7 +80,7 @@
 
 @media (min-width: 1280px) {
   .btn-primary {
-    padding: 1rem 1.6rem;
+    padding: 0.9rem 1.4rem;
     min-width: 180px;
     min-height: 55px;
     font-size: 18px;
