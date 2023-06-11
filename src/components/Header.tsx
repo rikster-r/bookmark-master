@@ -3,6 +3,8 @@ import HamburgerIcon from '../assets/icon-hamburger.svg';
 import PrimaryButton from './PrimaryButton';
 import { useState } from 'react';
 
+import '../styles/header.css';
+
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
