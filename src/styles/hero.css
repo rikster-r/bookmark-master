@@ -24,7 +24,8 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
+  max-width: 600px;
 }
 
 .hero-title {
@@ -43,12 +44,15 @@
 }
 
 @media (min-width: 1280px) {
-  .bg-blue {
-    left: 30%;
-  }
-
   .section-hero {
     flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: flex-start;
+  }
+
+  .bg-blue {
+    left: 30%;
   }
 
   .hero-title,
@@ -58,7 +62,6 @@
   }
 
   .hero-info {
-    max-width: 600px;
     margin-top: 2rem;
   }
 

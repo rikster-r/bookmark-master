@@ -91,13 +91,6 @@
     margin-left: auto;
   }
 
-  .section-hero {
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    padding: 0 2rem;
-    align-items: flex-start;
-  }
-
   .header-wrapper {
     padding: 2rem;
   }
@@ -106,9 +99,5 @@
 @media (min-width: 1440px) {
   .header-wrapper {
     padding: 4rem;
-  }
-
-  .section-hero {
-    padding: 0;
   }
 }

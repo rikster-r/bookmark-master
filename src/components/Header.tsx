@@ -24,7 +24,7 @@ const Header = () => {
           className={`dropdown-content ${dropdownOpen ? 'dropdown-open' : ''}`}
         >
           <nav className="section-nav">
-            <a href="#" className="section-link">
+            <a href="#features" className="section-link">
               Features
             </a>
             <a href="#" className="section-link">

@@ -1,0 +1,23 @@
+section {
+  margin-bottom: 6rem !important;
+}
+
+section h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 2rem;
+  text-align: center;
+}
+
+section p {
+  color: var(--gray-200);
+  line-height: 1.7;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (min-width: 1280px) {
+  section {
+    margin-bottom: 10rem !important;
+  }
+}
