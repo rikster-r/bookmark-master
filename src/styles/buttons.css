@@ -76,6 +76,10 @@
   .header > .btn-dropdown {
     width: 1.5rem;
   }
+
+  .btn-container {
+    justify-content: flex-start;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -92,9 +96,5 @@
 
   .header .btn-primary {
     display: inline-block;
-  }
-
-  .btn-container {
-    justify-content: flex-start;
   }
 }
