@@ -43,6 +43,7 @@
   flex-direction: column;
   padding: 0 2rem;
   gap: 5%;
+  height: max-content;
 }
 
 .feature .img-wrapper {
@@ -51,6 +52,7 @@
 
 .info.feature-info {
   max-width: 500px;
+  height: max-content;
 }
 
 .feature-info > button {
@@ -100,6 +102,7 @@
 @media (min-width: 1280px) {
   .feature .img-wrapper {
     margin-left: 10%;
+    margin-bottom: 5rem;
   }
 
   .features-nav button {
