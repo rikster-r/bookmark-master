@@ -4,6 +4,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 import DownloadSection from './components/DownloadSection';
+import FAQSection from './components/FAQSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <FeaturesSection />
       <DownloadSection />
+      <FAQSection />
     </>
   );
 }

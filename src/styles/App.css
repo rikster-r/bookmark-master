@@ -38,9 +38,19 @@ section {
   border-radius: 10rem;
 }
 
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 1280px) {
   section {
     margin: 0 auto 10rem auto !important;
+  }
+
+  section:not(.hero) {
+    margin-bottom: 12rem !important;
   }
 
   .title {
