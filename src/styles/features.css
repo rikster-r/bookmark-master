@@ -25,6 +25,10 @@
   color: var(--gray-300);
 }
 
+.features-nav button:not(.active):hover {
+  color: var(--primary-red);
+}
+
 .features-nav button.active::after {
   content: '';
   width: 50%;

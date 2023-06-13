@@ -3,7 +3,7 @@ import PrimaryButton from './PrimaryButton';
 
 import '../styles/hero.css';
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <section id="hero" className="section-hero">
       <div className="img-wrapper img-hero-wrapper">
@@ -33,4 +33,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;

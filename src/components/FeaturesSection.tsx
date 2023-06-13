@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Feature from './Feature';
 import '../styles/features.css';
 
-const Features = () => {
+const FeaturesSection = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
@@ -33,4 +33,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default FeaturesSection;

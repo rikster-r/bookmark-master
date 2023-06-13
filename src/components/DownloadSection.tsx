@@ -1,6 +1,6 @@
 import Card from './Card';
 
-const Download = () => {
+const DownloadSection = () => {
   return (
     <section id="download" className="section-download">
       <div className="info download-info">
@@ -19,4 +19,4 @@ const Download = () => {
   );
 };
 
-export default Download;
+export default DownloadSection;
