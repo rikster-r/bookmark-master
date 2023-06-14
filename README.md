@@ -2,9 +2,9 @@
 
 This is a solution to the [Bookmark landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![Website Preview](./public/design/desktop-preview.jpg)
+![Website Preview](./desktop-preview.jpg)
 
-[Website Live](https://github.com/)
+[Website Live](https://rikster-r.github.io/bookmark-master/)
 
 ## Built with
 
