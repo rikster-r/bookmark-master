@@ -28,7 +28,7 @@ const FeaturesSection = () => {
           )
         )}
       </div>
-      <Feature tab={activeTab} />
+      <Feature tab={activeTab + 1} />
     </section>
   );
 };

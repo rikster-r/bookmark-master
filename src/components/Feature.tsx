@@ -6,28 +6,25 @@ type Props = {
 };
 
 const Feature = ({ tab }: Props) => {
-  const [image, setImage] = useState();
+  const [image, setImage] = useState<{ default: string }>();
   (async () => {
-    const img = await import(
-      `../assets/illustration-features-tab-${tab + 1}.svg`
-    );
-    setImage(img.default);
+    setImage(await import(`../assets/illustration-features-tab-${tab}.svg`));
   })();
 
   let title = '',
     subtitle = '';
   switch (tab) {
-    case 0:
+    case 1:
       title = 'Bookmark in one click';
       subtitle =
         'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites';
       break;
-    case 1:
+    case 2:
       title = 'Intelligent search';
       subtitle =
         'Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all your bookmarks';
       break;
-    case 2:
+    case 3:
       title = 'Share your bookmarks';
       subtitle =
         'Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button';
@@ -37,7 +34,7 @@ const Feature = ({ tab }: Props) => {
   return (
     <div className="feature">
       <div className="img-wrapper">
-        <img src={image} alt="" className="img-feature" />
+        <img src={image?.default} alt="" className="img-feature" />
         <div className="bg-blue"></div>
       </div>
       <div className="info feature-info">
