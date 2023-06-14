@@ -6,6 +6,7 @@ import FeaturesSection from './components/FeaturesSection';
 import DownloadSection from './components/DownloadSection';
 import FAQSection from './components/FAQSection';
 import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <DownloadSection />
       <FAQSection />
       <ContactSection />
+      <Footer />
     </>
   );
 }

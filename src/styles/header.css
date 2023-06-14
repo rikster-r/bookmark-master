@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-.header > .bookmark-logo-wrapper {
+.bookmark-logo-wrapper {
   width: 150px;
 }
 
@@ -66,7 +66,7 @@
 }
 
 @media (min-width: 768px) {
-  .header > .bookmark-logo-wrapper {
+  .bookmark-logo-wrapper {
     width: 200px;
   }
 }
