@@ -46,11 +46,7 @@ section {
 
 @media (min-width: 1280px) {
   section {
-    margin: 0 auto 10rem auto !important;
-  }
-
-  section:not(.hero) {
-    margin-bottom: 12rem !important;
+    margin: 0 auto 12rem auto !important;
   }
 
   .title {
