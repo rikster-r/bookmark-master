@@ -17,6 +17,7 @@ const Header = () => {
         <button
           className="btn-dropdown"
           onClick={() => setDropdownOpen((open) => !open)}
+          aria-label="Open navigation menu"
         >
           <img src={HamburgerIcon} alt="" />
         </button>

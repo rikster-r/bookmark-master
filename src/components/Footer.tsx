@@ -23,10 +23,10 @@ const Footer = () => {
         </nav>
 
         <div className="social-media-links">
-          <a href="#">
+          <a href="#" aria-label="Facebook">
             <img src={FacebookIcon} alt="" />
           </a>
-          <a href="#">
+          <a href="#" aria-label="Twitter">
             <img src={TwitterIcon} alt="" />
           </a>
         </div>
